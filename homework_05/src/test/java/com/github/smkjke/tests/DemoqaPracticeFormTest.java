@@ -59,29 +59,6 @@ public class DemoqaPracticeFormTest {
                 .setCity(sampleUser.getCity())
                 .submit();
 
-
-//        open("/automation-practice-form");
-//        $x(".//input[@id='firstName']").setValue(sampleUser.getFirstName());
-//        $x(".//input[@id='lastName']").setValue(sampleUser.getLastName());
-//        $x(".//input[@id='userEmail']").setValue(sampleUser.getEmail());
-//        $x(String.format(".//input[@value='%s' and @name='gender']/following-sibling::label", sampleUser.getGender())).click();
-//        $x(".//input[@id='userNumber']").setValue(sampleUser.getPhoneNumber());
-//        $x(".//input[@id='dateOfBirthInput']").click();
-//        $x(".//select[contains(@class,'react-datepicker__month-select')]").selectOptionByValue(String.valueOf(sampleUser.getDateOfBirth().getMonthValue() - 1));
-//        $x(".//select[contains(@class,'react-datepicker__year-select')]").selectOptionByValue(String.valueOf(sampleUser.getDateOfBirth().getYear()));
-//        $x(String.format(".//div[contains(@class,'react-datepicker__day react-datepicker__day--0%d')]", sampleUser.getDateOfBirth().getDayOfMonth())).click();
-//        sampleUser.getSubjects().forEach(a -> getSubject(a).sendKeys(Keys.ENTER));
-//        sampleUser.getHobbies().forEach(a -> getHobby(a).click());
-//        $x(".//input[@id='uploadPicture']").uploadFile(sampleUser.getFile());
-//        $x(".//textarea[@id='currentAddress']").setValue(sampleUser.getCurrentAddress());
-//
-//        $x(".//div[@id='state']").click();
-//        $x(String.format(".//div[contains(text()[normalize-space()], '%s')]", sampleUser.getState())).click();
-//        $x(".//div[@id='city']").click();
-//        $x(String.format(".//div[contains(text()[normalize-space()], '%s')]", sampleUser.getCity())).click();
-//        $x(".//button[@id='submit']").click();
-
-
         //check values
         registrationFormPage.checkResultsTableVisible();
         registrationFormPage.checkResult("Student Name", sampleUser.getFirstName() + " " + sampleUser.getLastName())

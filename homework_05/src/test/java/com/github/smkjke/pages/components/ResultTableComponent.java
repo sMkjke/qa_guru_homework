@@ -8,7 +8,7 @@ import static com.codeborne.selenide.Selenide.$x;
 
 public class ResultTableComponent {
 
-    private static final String TITLE_TEXT = "Student Registration Form";
+    private static final String TITLE_TEXT = "Thanks for submitting the form";
 
     public ResultTableComponent isVisible() {
         $x(".//div[@class='modal-dialog modal-lg']").should(appear);

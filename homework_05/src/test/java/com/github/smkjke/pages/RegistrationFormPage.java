@@ -99,7 +99,7 @@ public class RegistrationFormPage {
     }
 
     public RegistrationFormPage uploadFile(File file) {
-        uploadFileComponent.uploadFile(file);
+        uploadFileComponent.uploadFile("uploadPicture", file);
         return this;
     }
 

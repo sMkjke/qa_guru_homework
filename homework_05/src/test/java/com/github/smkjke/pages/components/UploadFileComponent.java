@@ -6,8 +6,8 @@ import static com.codeborne.selenide.Selenide.$x;
 
 public class UploadFileComponent {
 
-    public UploadFileComponent uploadFile(File file) {
-        $x(".//input[@id='uploadPicture']").uploadFile(file);
+    public UploadFileComponent uploadFile(String id, File file) {
+        $x(String.format(".//input[@id='%s']", id)).uploadFile(file);
         return this;
     }
 
