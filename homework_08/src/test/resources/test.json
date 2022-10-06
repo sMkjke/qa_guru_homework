@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "userId": 1,
+      "firstName": "Aleksey",
+      "lastName": "Ivanov",
+      "phoneNumber": "123456",
+      "emailAddress": "alex2005@yandex.ru",
+      "pets": [
+        "dog",
+        "horse"
+      ]
+    },
+    {
+      "userId": 2,
+      "firstName": "Vasia",
+      "lastName": "Petrov",
+      "phoneNumber": "12345621",
+      "emailAddress": "vasia@gmail.com",
+      "pets": [
+        "cat",
+        "horse",
+        "duck"
+      ]
+    },
+    {
+      "userId": 3,
+      "firstName": "Petr",
+      "lastName": "Firstov",
+      "phoneNumber": "111",
+      "emailAddress": "democraty2022@yandex.ru",
+      "pets": [
+        "dog",
+        "sheep"
+      ]
+    },
+    {
+      "userId": 4,
+      "firstName": "Oleg",
+      "lastName": "Prostoy",
+      "phoneNumber": "222222222",
+      "emailAddress": "prostooleg@gmail.com",
+      "pets": [
+        "mouse",
+        "lizard"
+      ]
+    },
+    {
+      "userId": 5,
+      "firstName": "Ilon",
+      "lastName": "Mask",
+      "phoneNumber": "111111111",
+      "emailAddress": "spacex@spacex.ue",
+      "pets": [
+        "elephant",
+        "hamster"
+      ]
+    }
+  ]
+}
