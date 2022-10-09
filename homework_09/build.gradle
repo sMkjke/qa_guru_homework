@@ -1,24 +1,9 @@
 plugins {
     id 'java'
-    id "io.qameta.allure" version "2.11.0"
 }
 
 group 'com.github.smkjke'
 version '1.0-SNAPSHOT'
-
-allure {
-    report {
-        version.set('2.19.0')
-    }
-    adapter { // отвечает за появление папочки build/allure-results
-        aspectjWeaver.set(true) //обработка аннотации @step
-        frameworks {
-            junit5 {
-                adapterVersion.set("2.19.0")
-            }
-        }
-    }
-}
 
 repositories {
     mavenCentral()
